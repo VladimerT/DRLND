@@ -56,3 +56,7 @@ Project consists of
 6. close the environment 
     Ones you are done with the environment you can close it from the notebook. 
 
+
+## Ideas for Future Work
+
+The further improvements can be achieved by manipulating the hyperparameters. For example, one can increase the number of time steps and change the epsilon multiplicative factor to 0.999. This will force the agent to value the future reward more and also to live longer. Thus increasing the overall score per episode. Also, the model can be improved by manipulating the network architecture and adding the dropout layers which will help to generalize the network better. 
